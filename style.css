@@ -1,11 +1,11 @@
 /* NuttyMe LLC — Corporate Styles */
 :root {
-  --navy: #0a1628;
-  --slate: #2d2926;
-  --muted: #8a8278;
-  --light: #f5f2ed;
-  --border: #e2ddd4;
-  --accent: #2563eb;
+  --navy: #1a1410;
+  --slate: #3d3226;
+  --muted: #9a8b7a;
+  --light: #f5f0e8;
+  --border: #e5ddd1;
+  --accent: #c45c26;
   --max-width: 960px;
 }
 
@@ -17,7 +17,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: var(--slate);
   line-height: 1.6;
-  background: #fdfbf7;
+  background: #faf7f2;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 /* Header */
 header {
   border-bottom: 1px solid var(--border);
-  background: #fdfcfa;
+  background: #faf7f2;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -113,7 +113,7 @@ nav a:hover, nav a.active { color: var(--navy); }
 .btn-primary:hover { background: var(--slate); border-color: var(--slate); }
 
 .btn-secondary {
-  background: #fdfcfa;
+  background: #faf7f2;
   color: var(--slate);
   border-color: var(--border);
 }
@@ -151,7 +151,7 @@ p { margin-bottom: 16px; color: var(--slate); }
 }
 
 .card {
-  background: #fdfcfa;
+  background: #fdf9f3;
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 28px;
